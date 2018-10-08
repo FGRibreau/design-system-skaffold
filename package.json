@@ -1,0 +1,18 @@
+{
+  "name": "design-system-scaffold",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel examples/index.html  components/**/*.html",
+    "build": "parcel build examples/index.html components/**/*.html"
+  },
+  "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^1.9.7"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
