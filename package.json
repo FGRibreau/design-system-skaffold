@@ -1,8 +1,7 @@
 {
   "name": "design-system-scaffold",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Design system base project",
   "scripts": {
     "serve": "parcel examples/index.html  components/**/*.html",
     "build": "parcel build examples/index.html components/**/*.html"
